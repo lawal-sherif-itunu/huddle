@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+}
+
+.container {
+    background-color: hsl(257, 40%, 49%);
+    padding: 2.5rem;
+    padding-top: 3rem;
+    align-content: center;
+    width: min(90%, 22.2rem);
+    background-image: url(images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 100%;
+    margin-inline: auto;
+}
+
+.header img {
+    width: 10rem;
+    margin-bottom: 1rem;
+}
+
+img.illustration {
+    width: 100%;
+    margin-inline: auto;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+h2, p {
+    color: #fff;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 2.5rem;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
+
+.container a {
+    color: hsl(257, 40%, 49%);
+    background-color: #fff;
+    padding: 1rem;
+    text-decoration: none;
+    text-align: center;
+    margin: 1rem auto;
+    display: block;
+    width: min(60%, 10rem);
+    border-radius: 2rem;
+    margin-bottom: 3rem;
+    box-shadow: 3px 5px 10px -4px rgba(0,0,0,0.87);
+    -webkit-box-shadow: 3px 5px 10px -4px rgba(0,0,0,0.87);
+    -moz-box-shadow: 3px 5px 10px -4px rgba(0,0,0,0.87);
+}
+
+.container a:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.fa-brands {
+    font-size: 1.5rem;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: .5rem;
+    margin: .5rem;
+    color: #fff;
+    height: 1.5rem;
+    width: 1.5rem;
+    text-align: center;
+}
+
+.fa-brands:hover {
+    color: hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
+}
+
+.credit p, .credit a {
+    font-size: 1rem;
+    line-height: 1rem;
+    margin: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.credit p, .credit a {
+    color: hsl(257, 40%, 49%);
+}
+
+.credit a:hover {
+    font-size: large;
+    color: hsl(300, 69%, 71%);
+}
+
+@media screen and (min-width:62.5rem) {
+    .container {
+        width: 85%;
+        padding: 5rem;
+        padding-inline: 7rem;
+        background-image: url(images/bg-desktop.svg);
+    }
+
+    .content-area {
+        display: flex;
+        gap: 3rem;
+    }
+
+    .community h2 {
+        text-align: left;
+        font-size: 2.5rem;
+        margin-top: 5rem;
+        margin-bottom: 1.5rem;
+        margin-right: 2rem;
+    }
+
+    .community p {
+        text-align: left;
+        margin-right: 2rem;
+    }
+
+    .container a {
+        margin: 1rem 0;
+    }
+
+    .social-media {
+        justify-content: right;
+    }
+
+    img.illustration {
+        width: 60%;
+    }
+}
